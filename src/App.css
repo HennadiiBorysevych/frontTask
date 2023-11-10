@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url('./world.jpg');
+}
+
+
+button {
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+
+#root {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-scrollbar {
+  background-color: #f0e68c !important;
+  height: 50px !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #4169e1 !important;
+}
+
+.swiper-wrapper{
+  height: 95vh !important;
+}
