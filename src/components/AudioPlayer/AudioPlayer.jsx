@@ -17,7 +17,6 @@ const formWaveSurferOptions = (ref, height, width, waveColor) => ({
 });
 // eslint-disable-next-line react/prop-types
 export default function Waveform({url, svgSize, trackSize, barWidth}) {
-  console.log("🚀 : url", url)
   const waveformRef = useRef(null);
   const wavesurfer = useRef(null);
   const [playing, setPlay] = useState(false);

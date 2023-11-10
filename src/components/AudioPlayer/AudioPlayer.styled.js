@@ -32,13 +32,4 @@ export const PlayerSection = styled.div`
 `;
 
 export const PlayerButton = styled.button`
-  
-  @media screen and (min-width: 1440px) {
-    // height: 0px;
-
-    svg {
-      // margin-top: 15px;
-      // margin-bottom: 20px;
-    }
-  }
 `;

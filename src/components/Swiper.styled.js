@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const PostSwiper = styled.div`
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
 `;
 

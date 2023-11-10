@@ -30,7 +30,6 @@ const SwiperPosts = () => {
           "https://journey-b8oc.onrender.com/api/landmarks"
         );
         const data = await response.json();
-        console.log("🚀 : data", data);
 
         setPosts(data);
       } catch (error) {
@@ -62,6 +61,7 @@ const SwiperPosts = () => {
                   height={300}
                   style={{ borderRadius: 20 }}
                 />
+                <div>
                 <Waveform
                   url={item.audioURL}
                   trackSize={80}
@@ -69,6 +69,7 @@ const SwiperPosts = () => {
                   svgSize={25}
                 />
                 <LandMarkText>{item.text}</LandMarkText>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
