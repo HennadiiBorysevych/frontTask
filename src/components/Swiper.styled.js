@@ -17,7 +17,7 @@ export const LoaderWrapper = styled.div`
 `;
 export const LandMarkText = styled.p`
   color: brown;
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px;
   background-color: #fff;
   border-radius: 20px;

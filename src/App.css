@@ -2,9 +2,9 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url('./world.jpg');
-}
+  background-image: url("./world.jpg");
 
+}
 
 button {
   border: none;
@@ -16,12 +16,12 @@ button {
   text-transform: uppercase;
 }
 
-
 #root {
-  
   display: flex;
   justify-content: center;
   align-items: center;
+
+
 }
 
 .swiper-scrollbar {
@@ -33,6 +33,6 @@ button {
   background-color: #4169e1 !important;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   height: 95vh !important;
 }

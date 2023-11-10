@@ -47,7 +47,6 @@ const SwiperPosts = () => {
       {!loader ? (
         <PostSwiper>
           <Swiper
-            className="coursePurpose"
             spaceBetween={20}
             modules={[Scrollbar, A11y, Navigation, Pagination]}
             scrollbar={{ draggable: true }}
