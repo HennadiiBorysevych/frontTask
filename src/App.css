@@ -5,7 +5,9 @@ body {
   background-image: url("./world.jpg");
 
 }
-
+p{
+  margin: 0;
+}
 button {
   border: none;
   font: inherit;
@@ -36,3 +38,4 @@ button {
 .swiper-wrapper {
   height: 95vh !important;
 }
+
